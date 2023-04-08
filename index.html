@@ -4,18 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Momentum Practice</title>
 </head>
 <body>
-    <form id="login-form">
-        <input 
-        required 
-        maxlength="15"
-        type="text" 
-        placeholder="what is your name?"/>
-        <input type="submit" value="Log In">
-    </form>
-    <script src="app.js"></script>
+    <div class="background-img"></div>
+    <div class="content">
+      <!-- content goes here -->        
+        <form id="login-form" class="hidden">
+            <input 
+            required 
+            maxlength="15"
+            type="text" 
+            placeholder="what is your name?"/>
+            <input type="submit" value="Log In">
+        </form>
+        <h2 id="clock">00:00:00</h2>
+        <h1 class="hidden" id="greeting"></h1>
+        <form id="todo-form">
+            <input required type="text" placeholder="Write a To Do and Press Enter">
+            <ul id="todo-list"></ul>
+        </form>
+        <div id="quote-result">
+            <p id="quote"></p>
+            <p id="author"></p>
+        </div>
+
+    </div>
+    <script src="js/todo.js"></script>
+    <script src="js/apikey.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/quotes.js"></script>
 </body>
 </html>
