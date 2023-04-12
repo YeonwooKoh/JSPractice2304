@@ -3,7 +3,7 @@
 
 강의 제목 : 바닐라 JS로 크롬 앱 만들기<br>
 강의 url : https://nomadcoders.co/javascript-for-beginners <br>
-강의 내용 : HTML, CSS, JAVASCRIPT를 이용한 Momentum Chrome 어플 클론코딩을 통해 바닐라 자바스크립트 내용 학습 <br>
+강의 내용 : HTML, CSS, JAVASCRIPT를 이용한 Momentum Chrome 어플 클론코딩 <br>
 
 ---
 
