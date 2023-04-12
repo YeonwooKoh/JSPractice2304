@@ -1,5 +1,21 @@
 const UNSPLASH_KEY = config.unsplashApiKey;
 
+
+fetch(`https://api.unsplash.com/photos/random?client_id=${UNSPLASH_KEY}&featured&orientation=landscape&query=nature`)
+  .then(response => response.json())
+  .then(data => {
+    const imageUrl = data.urls.regular;
+    const imgTag = document.createElement('img');
+    imgTag.src = imageUrl;
+    document.body.appendChild(imgTag);
+    // 배경화면으로 설정
+    document.body.style.backgroundImage = `url(${imageUrl})`;
+  })
+  .catch(error => console.log(error));
+
+
+/* 
+
 fetch(`https://api.unsplash.com/photos/random?client_id=${UNSPLASH_KEY}&featured&orientation=landscape&query=nature`)
   .then(response => response.json())
   .then(data => {
@@ -37,3 +53,5 @@ fetch(`https://api.unsplash.com/photos/random?client_id=${UNSPLASH_KEY}&featured
     };
   })
   .catch(error => console.log(error));
+
+  */
