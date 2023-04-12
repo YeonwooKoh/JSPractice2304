@@ -16,7 +16,7 @@
 <br>$\to$ 가독성과 디자인 요소를 고려해 css 수정 및 삽입
 
 1. 강의는 명언을 직접 array로 입력
-<br>$\to$ 명언을 불러오는 api (https://dummyjson.com/quotes)로 명언을 호출해 html에 적용
+<br>$\to$ 명언을 불러오는 api ( https://dummyjson.com/quotes ) 를 호출해 html에 적용
 
 
 2. 강의는 배경화면 이미지를 직접 프로젝트 내에 저장하여 불러옴
